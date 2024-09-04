@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduInnovators</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login/Signup</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>EduInnovators</h1>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>Welcome to the Mindful Gamified Learning Platform</h2>
+            <p>Engage in learning with quests, badges, and rewards while maintaining your mental well-being.</p>
+            <button onclick="completeQuest()">Complete a Quest</button>
+            <p id="quest-message"></p>
+        </section>
+
+        <section id="key-features">
+            <h2>Key Features and Functionality</h2>
+
+            <div class="feature">
+                <h3>1. Gamified Learning Modules</h3>
+                <ul>
+                    <li><strong>Engaging Quests and Challenges:</strong> Courses are broken down into quests, each with clear objectives, rewards, and progress tracking. For example, completing a math module could be a quest where students earn points, badges, or virtual rewards. Quests can be collaborative (team-based) or individual, promoting both independent learning and teamwork.</li>
+                    <li><strong>Achievement Badges and Rewards:</strong> Students earn badges and points for completing tasks, participating in class, or achieving milestones. These could be tied to both academic achievements and positive mental health practices (e.g., completing a meditation session).</li>
+                    <li><strong>Leveling System:</strong> As students progress, they can level up, unlocking new content, tools, or customization options for their profiles, which keeps them motivated to continue learning.</li>
+                </ul>
+                <button onclick="window.location.href='gamified-learning.html'">Learn More about Gamified Learning Modules</button>
+            </div>
+
+            <div class="feature">
+                <h3>2. Integrated Mental Health and Well-being Tools</h3>
+                <ul>
+                    <li><strong>Daily Check-ins and Mood Tracking:</strong> Students begin their day with a quick emotional check-in, which tracks their mood and mental state. Based on the results, the platform can recommend activities, such as mindfulness exercises, relaxation games, or even suggest taking a break.</li>
+                    <li><strong>Mindful Challenges and Rewards:</strong> Incorporate well-being challenges, such as “Take 10 minutes for mindfulness,” “Complete a gratitude journal entry,” or “Do a 5-minute stretch.” Completing these challenges earns students well-being badges and boosts their in-game score.</li>
+                    <li><strong>Virtual Counseling and Support:</strong> The platform could offer virtual counseling sessions, either through AI-driven chatbots that provide immediate support or by connecting students with real counselors. Additionally, there could be resources like articles, videos, or podcasts focused on mental health topics.</li>
+                    <li><strong>Peer Support Communities:</strong> Create spaces where students can support each other. These could be moderated forums or chat groups where students share experiences, challenges, and encouragement. Gamification can also be applied here, with rewards for positive engagement and support within the community.</li>
+                </ul>
+                <button onclick="window.location.href='mental-health.html'">Learn More about Mental Health and Well-being Tools</button>
+            </div>
+
+            <div class="feature">
+                <h3>3. Balanced Learning and Well-being Analytics</h3>
+                <ul>
+                    <li><strong>Real-time Analytics for Teachers and Students:</strong> The platform provides insights into students' academic progress and mental well-being. Teachers can see which students are excelling, struggling, or might need extra support based on both their learning progress and mental health indicators. For students, personalized dashboards show their learning achievements alongside their well-being metrics, encouraging them to maintain a healthy balance between work and rest.</li>
+                    <li><strong>Alert System:</strong> If a student shows signs of burnout or consistently poor mental health indicators, the system can automatically alert teachers or counselors to intervene early, offering support before the student becomes overwhelmed.</li>
+                </ul>
+                <button onclick="window.location.href='analytics.html'">Learn More about Balanced Learning and Well-being Analytics</button>
+            </div>
+
+            <div class="feature">
+                <h3>4. AR/VR-Enhanced Well-being and Learning Modules</h3>
+                <ul>
+                    <li><strong>Immersive Relaxation and Learning Spaces:</strong> Utilize AR/VR technology to create virtual relaxation spaces where students can escape for a few minutes of mindfulness or meditation. These spaces can also be tied to the learning content; for example, a history lesson could include a virtual tour of ancient Rome, or a biology lesson could involve a 3D exploration of the human body.</li>
+                </ul>
+                <button onclick="window.location.href='arvr.html'">Learn More about AR/VR-Enhanced Modules</button>
+            </div>
+        </section>
+    </main>
+
+     <!-- Course Overview Section -->
+<section id="course-overview" class="section-padding">
+    <div class="container">
+        <h2>What We Will Offer</h2>
+        <div class="overview-grid">
+            <div class="overview-item">
+                <i class="fas fa-code"></i>
+                <h3>JavaScript Basics</h3>
+                <p>Understand the core concepts of JavaScript, including variables, loops, and functions.</p>
+            </div>
+            <div class="overview-item">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Ultimate Roadmap</h3>
+                <p>Learn how to interact with the DOM to create dynamic and interactive web pages.</p>
+            </div>
+            <div class="overview-item">
+                <i class="fas fa-server"></i>
+                <h3>APIs and AJAX</h3>
+                <p>Integrate third-party APIs and make asynchronous requests using AJAX.</p>
+            </div>
+            <div class="overview-item">
+                <i class="fas fa-project-diagram"></i>
+                <h3>AR/VR - Based Learning</h3>
+                <p>Build real-world projects to solidify your JavaScript knowledge.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="scripts.js"></script>
+</body>
+<!-- Footer -->
+<footer id="footer" class="footer-padding">
+    <div class="container">
+        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+    </div>
+</footer>
+</html>

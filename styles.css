@@ -1,0 +1,359 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 20px;
+}
+
+#features, #login-signup, #contact-info {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Existing styles... */
+
+#key-features {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    color: #4CAF50;
+}
+
+.feature ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.feature li {
+    margin-bottom: 10px;
+}
+
+/* Existing styles... */
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#gamified-learning {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Existing styles... */
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#mental-health {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Existing styles... */
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#analytics {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Existing styles... */
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#arvr {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Course Overview Section */
+#course-overview {
+    background: #f9f9f9;
+}
+
+.overview-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.overview-item {
+    flex: 1;
+    min-width: 220px;
+    text-align: center;
+}
+
+.overview-item i {
+    font-size: 2rem;
+    color: #ff6347;
+    margin-bottom: 10px;
+}
+/* General section padding */
+.section-padding {
+    padding: 60px 0;
+}
+
+/* Container for aligning content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Heading styling */
+#course-overview h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Grid layout for the overview items */
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Styling for each overview item */
+.overview-item {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.overview-item:hover {
+    background-color: #eaeaea;
+}
+
+/* Font Awesome icon styling */
+.overview-item i {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Heading and paragraph styling */
+.overview-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.overview-item p {
+    font-size: 1rem;
+    color: #666;
+}
+/* General section padding */
+.section-padding {
+    padding: 60px 0;
+    border: 3px solid #4CAF50; /* Green border around the entire section */
+    border-radius: 10px; /* Optional: rounded corners for the border */
+}
+
+/* Container for aligning content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Heading styling */
+#course-overview h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Grid layout for the overview items */
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Styling for each overview item */
+.overview-item {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    border: 2px solid #4CAF50; /* Green border for each overview item */
+}
+
+.overview-item:hover {
+    background-color: #eaeaea;
+}
+
+/* Font Awesome icon styling */
+.overview-item i {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Heading and paragraph styling */
+.overview-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.overview-item p {
+    font-size: 1rem;
+    color: #666;
+}
+/* General footer styling */
+.footer-padding {
+    padding: 20px 0;
+    background-color: #333; /* Dark background color for the footer */
+    color: #fff; /* White text color */
+    text-align: center;
+    border-top: 3px solid #4CAF50; /* Green border at the top of the footer */
+}
+
+/* Container for aligning footer content */
+#footer .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Footer text styling */
+#footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
