@@ -59,4 +59,17 @@ document.getElementById('mentalHealthForm').addEventListener('submit', function(
     const resultMessage = document.getElementById('resultMessage');
     resultMessage.style.display = 'block';
 });
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var featureName = document.getElementById("feature-name").value;
+    var featureDescription = document.getElementById("feature-description").value;
+    
+    if (name === "" || email === "" || featureName === "" || featureDescription === "") {
+        alert("Please fill out all the fields before submitting.");
+        event.preventDefault();
+    } else {
+        alert("Feature request submitted successfully!");
+    }
+});
 
