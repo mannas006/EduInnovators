@@ -41,3 +41,22 @@ document.getElementById("login-form").addEventListener("submit", function(event)
         this.submit(); // Proceed with form submission
     }
 });
+// Example to dynamically update student details based on logged-in user
+document.addEventListener("DOMContentLoaded", function() {
+    const studentName = "John Doe"; // Fetch from backend or session
+    document.querySelector("h2").innerText = `Welcome, ${studentName}`;
+});
+// Show the mental health check form when the button is clicked
+function startMentalHealthCheck() {
+    document.getElementById('mental-health-check').style.display = 'block';
+}
+
+// Handle form submission
+document.getElementById('mentalHealthForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form from reloading page
+    
+    // Show result message and reward
+    const resultMessage = document.getElementById('resultMessage');
+    resultMessage.style.display = 'block';
+});
+

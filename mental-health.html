@@ -13,6 +13,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="login.html">Login/Signup</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="dashboard.html">Student Dashboard</a></li>
             </ul>
         </nav>
         <h1>Integrated Mental Health and Well-being Tools</h1>
@@ -36,7 +37,60 @@
                 <h3>Peer Support Communities</h3>
                 <p>Create spaces where students can support each other. These could be moderated forums or chat groups where students share experiences, challenges, and encouragement. Gamification can also be applied here, with rewards for positive engagement and support within the community.</p>
             </div>
+
+            <!-- Add a button for mental health check -->
+            <button onclick="startMentalHealthCheck()">Check Mental Health</button>
+
+            <!-- Mental health questionnaire -->
+            <div id="mental-health-check">
+                <h3>Mental Health Check</h3>
+                <form id="mentalHealthForm">
+                    <div class="question">
+                        <label>1. How was your day?</label>
+                        <input type="radio" name="q1" value="good" required> Good
+                        <input type="radio" name="q1" value="bad"> Bad
+                    </div>
+                    <div class="question">
+                        <label>2. How are you feeling emotionally right now?</label>
+                        <input type="radio" name="q2" value="happy" required> Happy
+                        <input type="radio" name="q2" value="sad"> Sad
+                    </div>
+                    <div class="question">
+                        <label>3. Are you feeling stressed today?</label>
+                        <input type="radio" name="q3" value="yes" required> Yes
+                        <input type="radio" name="q3" value="no"> No
+                    </div>
+                    <div class="question">
+                        <label>4. Have you taken a break today?</label>
+                        <input type="radio" name="q4" value="yes" required> Yes
+                        <input type="radio" name="q4" value="no"> No
+                    </div>
+                    <div class="question">
+                        <label>5. Do you feel motivated?</label>
+                        <input type="radio" name="q5" value="yes" required> Yes
+                        <input type="radio" name="q5" value="no"> No
+                    </div>
+                    <div class="question">
+                        <label>6. Have you practiced mindfulness today?</label>
+                        <input type="radio" name="q6" value="yes" required> Yes
+                        <input type="radio" name="q6" value="no"> No
+                    </div>
+                    <div class="question">
+                        <label>7. Are you feeling physically well today?</label>
+                        <input type="radio" name="q7" value="yes" required> Yes
+                        <input type="radio" name="q7" value="no"> No
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+
+                <!-- Result display -->
+                <div class="result-message" id="resultMessage">
+                    <h3>Congratulations!</h3>
+                    <p>You have completed your mental health check and earned <strong>50 coins</strong>!</p>
+                </div>
+            </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
